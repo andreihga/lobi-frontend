@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lobi - Gaming Community Platform</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="landing-page">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-3" href="#home">
+                <i class="bi bi-controller me-2"></i>Lobi
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#how-it-works">How It Works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#community">Community</a>
+                    </li>
+                </ul>
+                
+                <div class="navbar-nav">
+                    <a href="login.html" class="btn btn-outline-light me-2">Login</a>
+                    <a href="register.html" class="btn btn-primary">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-background">
+            <div class="hero-particles"></div>
+        </div>
+        <div class="container">
+            <div class="row min-vh-100 align-items-center">
+                <div class="col-lg-6">
+                    <div class="hero-content">
+                        <h1 class="hero-title">
+                            Level Up Your
+                            <span class="text-gradient">Gaming Sessions</span>
+                        </h1>
+                        <p class="hero-subtitle lead">
+                            Connect with friends, discover new games, and organize epic gaming sessions. 
+                            The ultimate platform for gamers who want to play together.
+                        </p>
+                        <div class="hero-actions">
+                            <a href="register.html" class="btn btn-primary btn-lg me-3">
+                                <i class="bi bi-rocket-takeoff me-2"></i>Start Gaming
+                            </a>
+                            <a href="#features" class="btn btn-outline-light btn-lg">
+                                <i class="bi bi-play-circle me-2"></i>See Features
+                            </a>
+                        </div>
+                        <div class="hero-stats">
+                            <div class="stat-item">
+                                <div class="stat-number">1000+</div>
+                                <div class="stat-label">Games Supported</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">69</div>
+                                <div class="stat-label">Gaming Sessions</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">420</div>
+                                <div class="stat-label">Community Active</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-visual">
+                        <div class="gaming-console">
+                            <div class="console-glow">
+                                <i class="bi bi-controller display-1"></i>
+                            </div>
+                        </div>
+                        <div class="floating-elements">
+                            <div class="floating-game game-1">🎯</div>
+                            <div class="floating-game game-2">🏆</div>
+                            <div class="floating-game game-3">🎮</div>
+                            <div class="floating-game game-4">⚔️</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">Powerful Gaming Features</h2>
+                    <p class="section-subtitle">Everything you need to organize and enjoy gaming with friends</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="bi bi-collection"></i>
+                        </div>
+                        <h4>Game Library</h4>
+                        <p>Sync your Steam library and manually add games. Search, filter, and organize your collection effortlessly.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="bi bi-people"></i>
+                        </div>
+                        <h4>Smart Lobbies</h4>
+                        <p>Create persistent gaming groups. Automatically see what games everyone owns for instant compatibility.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="bi bi-check2-square"></i>
+                        </div>
+                        <h4>Democratic Voting</h4>
+                        <p>Let everyone vote on what to play next. Timed sessions ensure quick decisions and fair gameplay.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="bi bi-lightbulb"></i>
+                        </div>
+                        <h4>Game Discovery</h4>
+                        <p>Tinder-style game recommendations based on your preferences. Discover your next favorite game together.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="bi bi-x-circle"></i>
+                        </div>
+                        <h4>Smart Blacklist</h4>
+                        <p>Filter out games you don't want to play. Keep recommendations relevant and enjoyable for everyone.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="bi bi-lightning"></i>
+                        </div>
+                        <h4>Real-time Sync</h4>
+                        <p>Live updates across all devices. See voting results, new members, and game suggestions instantly.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">How It Works</h2>
+                    <p class="section-subtitle">Get started in 3 simple steps</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 text-center">
+                    <div class="step-card">
+                        <div class="step-number">1</div>
+                        <div class="step-icon">
+                            <i class="bi bi-person-plus"></i>
+                        </div>
+                        <h4>Create Account</h4>
+                        <p>Sign up and sync your game libraries from Steam and other platforms</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <div class="step-card">
+                        <div class="step-number">2</div>
+                        <div class="step-icon">
+                            <i class="bi bi-people-fill"></i>
+                        </div>
+                        <h4>Join Lobby</h4>
+                        <p>Create or join gaming lobbies with friends and see compatible games</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <div class="step-card">
+                        <div class="step-number">3</div>
+                        <div class="step-icon">
+                            <i class="bi bi-controller"></i>
+                        </div>
+                        <h4>Start Gaming</h4>
+                        <p>Vote on games, discover new ones, and start your epic gaming session</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Community Section -->
+    <section id="community" class="community-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h2 class="section-title">Join the Gaming Community</h2>
+                    <p class="section-subtitle mb-4">
+                        Connect with gamers worldwide. Share experiences, discover new games, 
+                        and build lasting gaming friendships.
+                    </p>
+                    <div class="community-features">
+                        <div class="community-feature">
+                            <i class="bi bi-shield-check text-success"></i>
+                            <span>Safe & Secure Platform</span>
+                        </div>
+                        <div class="community-feature">
+                            <i class="bi bi-globe text-info"></i>
+                            <span>Global Gaming Community</span>
+                        </div>
+                        <div class="community-feature">
+                            <i class="bi bi-clock text-warning"></i>
+                            <span>24/7 Active Members</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="community-visual">
+                        <div class="community-stats">
+                            <div class="stat-circle">
+                                <div class="stat-value">10K+</div>
+                                <div class="stat-desc">Active Gamers</div>
+                            </div>
+                            <div class="stat-circle">
+                                <div class="stat-value">500+</div>
+                                <div class="stat-desc">Daily Sessions</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h2 class="cta-title">Ready to Level Up?</h2>
+                    <p class="cta-subtitle">Join thousands of gamers already using Lobi to organize amazing gaming sessions</p>
+                    <div class="cta-actions">
+                        <a href="register.html" class="btn btn-primary btn-lg me-3">
+                            <i class="bi bi-rocket-takeoff me-2"></i>Get Started Free
+                        </a>
+                        <a href="login.html" class="btn btn-outline-light btn-lg">
+                            <i class="bi bi-box-arrow-in-right me-2"></i>Login
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="footer-brand">
+                        <i class="bi bi-controller me-2"></i>
+                        <span class="fw-bold">Lobi</span>
+                    </div>
+                    <p class="footer-text">The ultimate gaming community platform</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <div class="footer-links">
+                        <a href="#privacy">Privacy</a>
+                        <a href="#terms">Terms</a>
+                        <a href="#support">Support</a>
+                    </div>
+                    <div class="footer-social">
+                        <a href="#"><i class="bi bi-twitter"></i></a>
+                        <a href="#"><i class="bi bi-discord"></i></a>
+                        <a href="#"><i class="bi bi-twitch"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer-bottom">
+                        <p>&copy; 2024 Lobi Gaming Platform. Built with ❤️ for gamers.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Landing Page JS -->
+    <script src="js/common.js"></script>
+    <script src="js/landing.js"></script>
+</body>
+</html>
