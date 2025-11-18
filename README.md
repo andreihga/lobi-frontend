@@ -15,6 +15,7 @@ Lobi is a gaming platform that allows users to:
 **Multi-Page Application** built with vanilla HTML, CSS, and JavaScript for easier debugging and development.
 
 ### File Structure
+```text
 /lobi-frontend/
 ├── index.html     # Dashboard (landing page)
 ├── library.html   # Game library management
@@ -23,17 +24,17 @@ Lobi is a gaming platform that allows users to:
 ├── styles.css     # Shared styles for all pages
 ├── sw.js          # Service worker (PWA)
 ├── assets/
-│ ├── images/      # Image assets
-│ └── fonts/       # Custom fonts (if needed)
+│   ├── images/      # Image assets
+│   └── fonts/       # Custom fonts (if needed)
 ├── js/
-│ ├── common.js    # Shared utilities (localStorage, toast, etc.)
-│ ├── dashboard.js # Dashboard specific logic
-│ ├── library.js   # Library page logic
-│ ├── lobbies.js   # Lobbies page logic
-│ └── lobby.js     # Lobby interior logic
+│   ├── common.js    # Shared utilities (localStorage, toast, etc.)
+│   ├── dashboard.js # Dashboard specific logic
+│   ├── library.js   # Library page logic
+│   ├── lobbies.js   # Lobbies page logic
+│   └── lobby.js     # Lobby interior logic
 ├── manifest.json  # Web app manifest (PWA)
 └── README.md      # This file
-
+```
 ## 🛠️ Tech Stack
 
 - **HTML5** - Semantic markup structure
